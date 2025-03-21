@@ -143,10 +143,7 @@ footer .footerrights{
   display: none;
  } */
 
-
-
-
- /* General styles */
+/* General styles */
 * {
   margin: 0;
   padding: 0;
@@ -234,8 +231,8 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 30px;
+  gap: 150px;
+  padding: 40px;
   background-color: rgb(38, 1, 59);
   text-align: center;
 }
@@ -249,6 +246,14 @@ nav ul li a {
   color: gray;
   padding: 10px;
 }
+.open:hover + .hide{
+  display: block;
+  color: gray;
+ }
+ .hide{
+  display: none;
+ }
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {
@@ -278,7 +283,7 @@ nav ul li a {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   nav {
     padding: 10px;
   }
@@ -300,4 +305,3 @@ nav ul li a {
     align-items: center;
   }
 }
-
